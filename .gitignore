@@ -1,0 +1,13 @@
+# OS / Editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Node (if you ever add tooling later)
+node_modules/
+
+# Netlify deploy previews (if you ever download zips)
+*.zip
+
+# Python http.server cache (rare)
+__pycache__/

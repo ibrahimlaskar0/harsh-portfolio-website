@@ -1,0 +1,13 @@
+<svg width="400" height="225" viewBox="0 0 400 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="longform1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="225" fill="url(#longform1)"/>
+  <rect x="20" y="170" width="360" height="35" fill="rgba(0,0,0,0.7)" rx="4"/>
+  <text x="200" y="192" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="white" text-anchor="middle">YouTube Long-form Video #1</text>
+  <circle cx="200" cy="112" r="25" fill="rgba(99,102,241,0.8)"/>
+  <polygon points="190,102 190,122 210,112" fill="white"/>
+</svg>

@@ -1,0 +1,31 @@
+# Netlify configuration for Harsh Media static site
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  publish = "."          # Root folder contains index.html
+  command = ""            # No build step needed for plain HTML/CSS/JS
+
+# Optional: Redirects (uncomment if you later add SPA-style routing)
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
+
+# Security & performance headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-XSS-Protection = "1; mode=block"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Cache-Control = "public, max-age=300"
+
+# Longer caching for static assets (adjust extensions as needed)
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Gzip/Brotli handled automatically by Netlify; no extra config required.

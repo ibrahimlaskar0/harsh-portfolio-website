@@ -1,0 +1,14 @@
+<svg width="225" height="400" viewBox="0 0 225 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shortform3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="225" height="400" fill="url(#shortform3)"/>
+  <rect x="15" y="330" width="195" height="55" fill="rgba(0,0,0,0.7)" rx="8"/>
+  <text x="112" y="350" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white" text-anchor="middle">YouTube Short</text>
+  <text x="112" y="365" font-family="Inter, sans-serif" font-size="10" fill="rgba(255,255,255,0.8)" text-anchor="middle">3.1M Views</text>
+  <circle cx="112" cy="200" r="20" fill="rgba(255,255,255,0.3)"/>
+  <polygon points="105,192 105,208 120,200" fill="white"/>
+</svg>
